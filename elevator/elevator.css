@@ -1,0 +1,82 @@
+body {
+    background-image: url('https://images.pexels.com/photos/39317/chihuahua-dog-puppy-cute-39317.jpeg'), url('https://images.pexels.com/photos/460823/pexels-photo-460823.jpeg'), url('https://images.pexels.com/photos/59523/pexels-photo-59523.jpeg'), url('https://images.pexels.com/photos/612813/pexels-photo-612813.jpeg');
+    background-color: white;
+    font-family: Helvetica;
+    color: black;
+}
+
+#panel {
+    background-color: #d4d4d4;
+    padding: 15px;
+    border: 5px solid black;
+    border-radius: 6px;
+    width: 340px;
+    z-index: 1;
+    position: absolute;
+}
+
+#display {
+    background-color: black;
+    width: 280px;
+    height: 180px;
+    margin: 15px;
+    padding: 15px;
+    z-index: 2;
+    position: relative;
+}
+
+#number {
+    color: white;
+    font-size: 140px;
+    float: left;
+    z-index: 3;
+    padding: 20px;
+}
+
+.indicator {
+    width: 40px;
+    height: 40px;
+    float: right;
+    z-index: 3;
+    padding: 15px;
+    margin: 10px;
+    display: block;
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#buttons {
+    width: 280px;
+    height: 180px;
+    z-index: 2;
+    margin-left: 20px;
+}
+
+.selection {
+    background-color: #fff;
+    text-align: center;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border: 5px solid black;
+    border-radius: 60%;
+    padding: 15px;
+    margin: 10px;
+    display: block;
+}
+
+.left {
+    float: left;
+    margin-right: 60px;
+}
+
+.right {
+    float: right;
+    margin-right: 0px;
+}
