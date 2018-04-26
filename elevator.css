@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+    font-family: Arial;
+    color: black;
+}
+
+#panel {
+    background-color: gray;
+    border: 5px solid black;
+    width: 150px;
+    height: 300 px;
+}
+
+#display {
+    background-color: black;
+    width: 140px;
+    height: 150px;
+    margin: 10px;
+}
+
+#number {
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+
+.indicator {
+    width: 20px;
+    height: 20px;
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#buttons {
+    width: 140px;
+    height: 150px;
+}
+
+#selection {
+    background-color: lightgray;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+
